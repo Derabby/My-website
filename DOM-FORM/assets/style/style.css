@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    border: 3px solid black;
+    height: 100vh;
+    width: 100%;
+    background: url("/assets/img/laptop.jpg") no-repeat center bottom/cover;
+  height: 100vh;
+}
+
+#signUpBodyMod {
+    height: auto;
+}
+
+.container {
+    background-color: aliceblue;
+    width: 50%;
+    margin: auto;
+    height: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 20px;
+    border-radius: 10px;
+    opacity: 0.9;
+    padding: 20px;
+}
+
+.form-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#errMsg {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    color: red;
+}
+
+#reg-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+input[type=submit] {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(46, 160, 225);
+    border-radius: 5px;
+    border: none;
+}
+
+.brands {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#brand-image {
+    height: 32px;
+    width: 32px;
+}
+
+.brands {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+}
+
+.login-user, .pass-user {
+    height: 30px;
+    width: 100%;
+    padding-left: 10px;
+}
+#login-user, #pass-user {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+.forgot {
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: space-between;
+}
+
+.forgots {
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.brandz {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#back-arrow {
+    height: 32px;
+    width: 32px;
+
+}
+
+#sign-up {
+    margin-bottom: 20px;
+}
+
+table, tr, td {
+    /* border: 1px solid black; */
+    width: 100%;
+    
+}
+
+#table {
+    width: 15%;
+}
+
+tr, td {
+    height: 50px;
+    padding: 10px 10px 10px 0;
+}
+
+#fname {
+    width: 80%;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.container-2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+

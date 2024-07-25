@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body id="signUpBodyMod">
+    <div class="container" id="reg-container">
+        <a href="index.html">
+            <span>
+                <img src="assets/img/arrow-back-long-svgrepo-com.svg" alt="back-arrow" id="back-arrow">
+            </span>
+        </a>
+        <div class="container-2">
+            <h3 id="sign-up">Sign up your membership!</h3>
+        <form action="" method="POST" id="login-form">
+            <table>
+                <tr>
+                    <td id="table">Name:</td>
+                    <td>
+                        <input type="text" name="user" id="fname" placeholder="Enter your name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="table">Surname:</td>
+                    <td>
+                        <input type="text" name="surname" id="fname" placeholder="Enter your surname" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="table">Email:</td>
+                    <td>
+                        <div id="errMsg1"></div>
+                        <input type="text" name="email" id="fname" placeholder="Enter your email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="table">Age:</td>
+                    <td>
+                        <input type="number" name="age" id="fname" placeholder="Enter your age" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="table">Gender:</td>
+                    <td>
+                        <input type="radio" name="gender" id="male">
+                        Male
+                        <input type="radio" name="gender" id="female">
+                        Female
+                    </td>
+                </tr>
+                <tr>
+                    <td id="table">Address:</td>
+                    <td>
+                        <input type="text" name="address" id="fname" placeholder="Enter your address" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="table">Username:</td>
+                    <td>
+                        <div id="errMsg"></div>
+                        <input type="text" name="username" id="fname" placeholder="Enter your username" required minlength="6" maxlength="10">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="table">Password</td>
+                    <td>
+                        <input type="password" name="password" id="fname" placeholder="Enter your password" required minlength="6" maxlength="10">
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="Register">
+        </form>
+        
+        <div class="forgots">
+            -Or login with-
+        </div>
+        <div class="brands">
+            <a href="#">
+                <img src="assets/img/google-color-svgrepo-com.svg" alt="" id="brand-image">
+            </a>
+            <a href="#">
+                <img src="assets/img/github-142-svgrepo-com.svg" alt="" id="brand-image">
+            </a>
+            <a href="#">
+                <img src="assets/img/facebook-svgrepo-com.svg" alt="" id="brand-image">
+            </a>
+        </div>
+        </div>
+    </div>
+
+
+    <script src="assets/js/sign-up.js"></script>
+</body>
+</html>

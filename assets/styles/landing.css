@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 200vh;
+    background: linear-gradient( rgb(207, 226, 234) ,white);
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(164, 155, 155);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+}
+.cat{
+    margin-left: 170px;
+    display: flex;
+}
+.shopping{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid green; */
+    width: 100px;
+    padding-right: 7px;
+}
+.car{
+    color:rgb(51, 46, 46);
+}
+.sear{
+     height: 30px;
+    width: 40%;
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    background-color: white;
+     justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+
+}
+.both{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 270px;
+    /* border: 1px solid green; */
+}
+#icon{
+    height: 20px;
+    width: 150px;
+    /* border: 1px solid blue; */
+}
+#searchh{
+    height: 20px;
+    width: 90%;
+    border: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    font-size: large;
+    outline: none;
+}
+.to{
+    color: rgb(11, 11, 11);
+    font-style: oblique;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.lang{
+color:rgb(51, 46, 46);
+/* border: 1px solid blue; */
+height: 40px;
+width: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.langg{
+    border: none;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+.log{
+    margin-left: 30px;
+}
+.create{
+    margin-right: 30px;
+}
+.or{
+    color: white;
+}
+.secondnav{
+    width: 100%;
+    height: 90px;
+    /* border: 1px solid black; */
+}
+.princess{
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 40px; */
+}
+.fabric{
+    margin-right: 60px;
+    font-size: 15px;
+    font-style: oblique;
+    display: flex;
+    margin-bottom: 30px;
+}
+.goody{
+    margin-top: 20px;
+    margin-left: 7px;
+}
+.store{
+    position: absolute;
+    bottom: 460px;
+    right: 620px;
+    color: orangered;
+    font-size: 25px;
+    font-style:oblique;
+}
+.pics{
+    width: 65px;
+    height: 90px;
+    /* margin-bottom: 50px; */
+    border-radius: 50%;
+    /* position: absolute;
+    bottom: 520px;
+    right: 755px; */
+
+}
+.products{
+    margin-top: 40px;
+    word-spacing: 5px;
+    margin-right: 25px;
+    font-size: 16px;
+    margin-left: 9px;
+}
+.hambuger{
+    width: 30px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 30px;
+    display: none;
+}
+.line{
+    width:13px;
+    height: 5px;
+    margin-top: 5px;
+    display: flex;
+    margin-left: 9px;
+    background-color: black;
+}
+/* .spa{
+    display: flex;
+    flex-direction: row;
+    display: none;
+
+} */
+.thirdnav{
+    width: 100%;
+    height: 30px;
+    background: linear-gradient( orangered, black);
+}
+.read{
+    color: black;
+    padding-right: 10px;
+}
+.rate{
+    font-size: small;
+}
+.pass{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .review{
+    display: flex;
+    flex-direction: row;
+}
+.business{
+width: 100%;
+height: 30px;
+/* border: 2px solid blue; */
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: white;
+}
+.main{
+    height: 80px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.dera{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-style: oblique;
+}
+.wax{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.trendy{
+    font: 10px;
+    padding-left: 10px;
+}
+.best{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.filter{
+    display: flex;
+}
+.sort{
+    display: flex;
+}
+#opt{
+    border: none;
+}
+.footer{
+    height: 40px;
+    width: 100%;
+    background-color:rgb(90, 86, 86);
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.info{
+    color: rgb(37, 34, 34);
+}
+.pictures{
+display: flex;
+}
+.picx{
+    display: flex;
+}
+.picturre{
+    display: flex;
+}
+.pixxal{
+    display: flex;
+}
+.pixal{
+    display: flex;
+}
+.wax{
+    height: 120px;
+    width: 90px;
+    position: relative;
+    left: 30px;
+    top: 8px;
+}
+.Holland{
+    height: 120px;
+    width: 90px;
+    position: relative;
+    left: 40px;
+    top: 8px;
+}
+.dutch{
+    height: 120px;
+    width: 90px;
+    position: relative;
+    left: 30px;
+    top: 8px;
+}
+.Hitarget{
+    height: 120px;
+    width: 90px;
+    position: relative;
+    left: 30px;
+    top: 8px;
+
+}
+.gold{
+    height: 120px;
+    width: 90px;
+    position: relative;
+    left: 30px;
+    top: 8px;
+
+}
+.asoke{
+    height: 120px;
+    width: 90px;
+    position: relative;
+    left: 30px;
+    top: 8px;
+
+}
+.kente{
+    height: 120px;
+    width: 90px;
+    position: relative;
+    left: 30px;
+    top: 8px;
+
+}
+.one{
+    margin-left: 30px;
+    margin-top: 35px;
+}
+.one:hover{
+    background-color: rgb(205, 185, 185);
+}
+.two{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.two:hover{
+    background-color: rgb(205, 185, 185);
+}
+.three{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.three:hover{
+    background-color: rgb(205, 185, 185);
+}
+
+.four{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.four:hover{
+    background-color: rgb(205, 185, 185);
+}
+
+.five{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.five:hover{
+    background-color: rgb(205, 185, 185);
+}
+
+.six{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.six:hover{
+    background-color: rgb(205, 185, 185);
+}
+
+.seven{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.seven:hover{
+    background-color: rgb(205, 185, 185);
+}
+
+.eight{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.eight:hover{
+    background-color: rgb(205, 185, 185);
+}
+
+.nine{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.nine:hover{
+    background-color: rgb(205, 185, 185);
+}
+
+.ten{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.ten:hover{
+    background-color: rgb(205, 185, 185);
+}
+
+.eleven{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.eleven:hover{
+    background-color: rgb(205, 185, 185);
+}
+
+.twelve{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.twelve:hover{
+    background-color: rgb(205, 185, 185);
+}
+
+.thirteen{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.thirteen:hover{
+    background-color: rgb(205, 185, 185);
+}
+
+.fourteen{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.fourteen:hover{
+    background-color: rgb(205, 185, 185);
+}
+
+.fifteen{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.fifteen:hover{
+    background-color: rgb(205, 185, 185);
+}
+
+.sixteen{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.sixteen:hover{
+    background-color: rgb(205, 185, 185);
+}
+
+.seventeen{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.seventeen:hover{
+    background-color: rgb(205, 185, 185);
+}
+
+.eighteen{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.eighteen:hover{
+    background-color: rgb(205, 185, 185);
+}
+
+
+.nineteen{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.nineteen:hover{
+    background-color: rgb(205, 185, 185);
+}
+
+.twenty{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.twenty:hover{
+    background-color: rgb(205, 185, 185);
+}
+.twentyone{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.twentyone:hover{
+    background-color: rgb(205, 185, 185);
+}
+.twentytwo{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.twentytwo:hover{
+    background-color: rgb(205, 185, 185);
+}
+.twentythree{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.twentythree:hover{
+    background-color: rgb(205, 185, 185);
+}
+.twentyfour{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.twentyfour:hover{
+    background-color: rgb(205, 185, 185);
+}
+.twentyfive{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.twentyfive:hover{
+    background-color: rgb(205, 185, 185);
+}
+.btn{
+    height: 30px;
+    width: 40px;
+    background-color: orangered;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    /* border: none; */
+    margin-left: 90px;
+}
+/* @media screen and (max-width:300px ){
+    .container{
+        width: 100%;
+        height: 740vh;
+        background: linear-gradient( rgb(207, 226, 234) ,white);
+    }
+    .main{
+        width: 100%;
+        height: 740px;
+    }
+    .navbar{
+        height: 50px;
+        width: 100%;
+        border: 1px solid black;
+        background-color: rgb(164, 155, 155);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hambuger{
+        width: 30px;
+        height: 35px;
+        background-color: white;
+        border-radius: 50%;
+        margin-top: 30px;
+        display: block;
+    }
+    .line{
+        width:13px;
+        height: 5px;
+        margin-top: 5px;
+        display: flex;
+        margin-left: 9px;
+        background-color: black;
+    }
+    .secondnav{
+        width: 40%;
+        height: 90px;
+        /* border: 1px solid black; */
+    /* } */
+    /* .pictures{
+        display: flex;
+        width: 50px;
+        border: 2px solid black;
+        }
+        .one{
+            width: 50px;
+        }
+        
+    .business{
+        width: 100%;
+        height: 30px;
+        border: 2px solid blue;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        }
+        .thirdnav{
+            width: 70%;
+            height: 30px;
+            background: linear-gradient( orangered, black);
+        } */
+             
+         */
+/* } */

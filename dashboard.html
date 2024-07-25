@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="sidebar">
+                <div class="image">
+                    <img class="img" src="assets/img/IMG-20230908-WA0011.jpg" alt="">
+                </div>
+                <div class="sear">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" name="Search" id="searchh" placeholder="Search">
+                </div>
+                <div class="board">
+               <button class="dash"><i id="icon" class="fa-solid fa-envelopes-bulk"></i><h5>Dashboard</h5></button>
+            </div>
+            <div class="orders">
+                <i id="arrow" class="fa-solid fa-sort"></i>
+                <a class="old" href="order.html"><h5>Orders</h5></a>
+            </div>
+            <div class="demand">
+                <i id="gear" class="fa-solid fa-gear"></i>
+                 <a class="dem" href="demand.html"><h5>Demands</h5></a>
+            </div>
+            <div class="pay">
+                <i id="card" class="fa-solid fa-credit-card"></i>
+                 <a id="ment" href="payment.html"><h5>Payment</h5></a>
+            </div>
+                <div class="not">
+                    <i id="bel" class="fa-solid fa-bell"></i>
+                      <a id="bell" href=""><h5>Notifications</h5></a>
+                </div>
+                <div class="not">
+                    <i id="port" class="fa-regular fa-message"></i>
+                    <a id="sub" href=""><h5>Help&Support</h5></a>
+                </div>
+                <div class="not">
+                    <i id="gear" class="fa-solid fa-gear"></i>
+                    <a id="sub" href="settings.html"><h5>Settings</h5></a>
+                </div>
+
+            </div>
+            <div class="boxone">
+                <div class="nav">
+                    <!-- <div class="bot"> -->
+                        <marquee behavior="" direction="">
+                     <div class="right">
+                    <h2 class="out"> Sales Overview*</h2>
+                   </div>
+                </marquee>
+                   <!-- <div class="produces">
+                    <a href="index.html">Home</a>
+                    <a href="high.html">Hitarget</a>
+                    <a href="holland.html">Hollandais</a>
+                    <a href="kente.html">Kente</a>
+                    <a href="dutch.html">Goldprint</a>
+                    <a href="wax.html">Waxprint</a>
+                    <a href="kente.html">Asoke</a>
+                    <a href="dutch.html">Dutchprint</a>
+                  </div> -->
+                   <!-- </div> -->
+                    <div class="rate">
+                    <div class="online">
+                        <h4 class="al">All</h4> 
+                        <h4>Sales(Online)</h4>
+                        <p class="no">431,007</p>
+                    </div>
+                    <div class="off">
+                        <h4 class="al">All</h4>
+                        <h4>Sales(offline)</h4>
+                        <p class="no">950,000</p>
+                    </div>
+                </div>
+
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+
+            <canvas id="myChart">style="width:100%;max-width:500px"</canvas>
+        
+                <script>
+                    const dailysales = {
+                        monday:2800,
+                        tueday:2500,
+                        wednesday:1500,
+                        thursday:2100,
+                        friday:2300,
+                        saturday: 1700,
+                         
+                    }
+                var xValue = ["Hitarget","Hollandais","Asoke","Goldprint","Dutchprint","Vintage","Waxprint"];
+                var zValue = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+                var yValues = [28000,25000,15000,21000,23000,18000,17000];
+                var barColor = ["red","blue","yellow","orange","green","brown","purple"];
+        
+                new Chart("myChart", {
+                    type: "bar",
+                    data: {
+                        labels: xValue,
+                        datasets:  [
+                            {
+                            backgroundColor: barColor,
+                            data: yValues
+                        },
+                    ],
+        
+                    },
+                    options: {},
+                });
+        
+                document.getElementById("myChart").innerHTML + myChart;
+            </script>
+            <div class="sales">
+                <div class="quantity">
+                    <p class="total">Total Quantity</p>
+                    <h5 class="number">110,000</h5>
+                    <p class="days">2.00% (30days)</p>
+                </div>
+                <div class="cost">
+                    <p class="total">Total Cost</p>
+                    <h5 class="number">$530,000</h5>
+                    <p class="days">12.00% (30days)</p>
+                </div>
+                <div class="revenue">
+                    <p class="total">Total Revenue</p>
+                    <h5 class="number">$750,000</h5>
+                    <p class="days">0.15% (30days)</p>
+                </div>
+                <div class="profit">
+                    <p class="total">Total Profit</p>
+                    <h5 class="number">$300,000</h5>
+                    <p class="days">5.20% (30days)</p>
+                </div>
+
+
+            </div>
+        
+            </div>
+            </div>
+            </div>
+
+
+</body>
+</html>

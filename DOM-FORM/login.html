@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="index.html">
+            <span>
+                <img src="assets/img/arrow-back-long-svgrepo-com.svg" alt="back-arrow" id="back-arrow">
+            </span>
+        </a>
+        <div class="form-box">
+            <h3>Please enter your login details</h3>
+        <form action="submit" method="POST" id="login-form">
+            <div id="login-user">
+                <p>Username: </p>
+                <input type="text" name="username" id="username" placeholder="Enter your username" class="login-user">
+            </div>
+            <div id="pass-user">
+                <p>Password: </p>
+                <input type="text" name="password" id="password" placeholder="Enter your password" class="pass-user">
+            </div>
+                
+            <input type="submit" id="login-btn" value="Login">
+            <div class="forgot">
+                <div>
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                Save on this computer
+                </div>
+                <div>
+                    <a href="#">Forgot password?</a>
+                </div>
+            </div>
+            <div class="forgots">
+                -Or login with-
+            </div>
+            <div class="brandz">
+                <a href="#">
+                    <img src="assets/img/google-color-svgrepo-com.svg" alt="" id="brand-image">
+                </a>
+                <a href="#">
+                    <img src="assets/img/github-142-svgrepo-com.svg" alt="" id="brand-image">
+                </a>
+                <a href="#">
+                    <img src="assets/img/facebook-svgrepo-com.svg" alt="" id="brand-image">
+                </a>
+            </div>
+        </form>
+        </div>
+        
+    </div>
+    
+
+    <script src="assets/js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/style/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script>
+
+     // Check if the user is in session storage
+     if (!sessionStorage.getItem('logins')) {
+        alert("Log in with valid credentials please!")
+        window.location.href = 'http://127.0.0.1:5500/login.html';
+    }
+
+</script>
+
+</head>
+<body onload="pageLoad()">
+    <div class="error-msg"></div>
+    <div class="container">
+        <div class="sub-container" id="check-user">
+            <div class="left-section">
+                <div class="profile-set">
+                    <h2>GBM</h2>
+                    <div class="line"></div>
+                    <div id="profile-text">
+                        <span>
+                            <img src="../assets/img/dashboard-svgrepo-com.svg" alt="dashboard" id="dashboard">
+                        </span>
+                        Dashboard
+                    </div>
+                    <div id="profile-text">
+                        <span>
+                            <img src="../assets/img/project-svgrepo-com.svg" alt="dashboard" id="dashboard">
+                        </span>
+                        Projects
+                    </div>
+                    <div id="profile-text">
+                        <span>
+                            <img src="../assets/img/task-svgrepo-com.svg" alt="dashboard" id="dashboard">
+                        </span>
+                        Task Lists
+                    </div>
+                    <div id="profile-text">
+                        <span>
+                            <img src="../assets/img/globus-svgrepo-com.svg" alt="dashboard" id="dashboard">
+                        </span>
+                        Services
+                    </div>
+                    <div id="profile-text">
+                        <span>
+                            <img src="../assets/img/notification-13-svgrepo-com.svg" alt="dashboard" id="dashboard">
+                        </span>
+                        Notifications
+                    </div>
+                    <div id="profile-text">
+                        <span class="svg-icons">
+                            <img src="../assets/img/chat-unread-svgrepo-com.svg" alt="dashboard" id="dashboard">
+                        </span>
+                        Chat
+                    </div>
+                </div>
+                <div class="profile-pic">
+                    <div class="circle-main">
+                        <div class="dot"></div>
+                    </div>
+                    <p id="profile-name">Ugochukwu Okonkwo</p>
+                    <p id="profile-email">gocitek@gmail.com</p>
+                    <br>
+                    <p class="logout" id="logout">Logout</p>
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="search">
+                    <div class="search-date">
+                        <div class="search-box">
+                            <input type="text" name="search" id="search" placeholder="Search">
+                            <span>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                        </div>
+                        <div class="monday">
+                            Monday, 6th March
+                        </div>
+                    </div>
+                    <div class="switch">
+                        <h3 id="welcome-msg"></h3>
+                    </div>
+                </div>
+                <div class="task">
+                    <div class="today">
+                        <div class="today-plan">
+                            <div class="t-p">
+                                <h3>Today's Plan</h3>
+                            <p>Friday, June 28th</p>
+                            </div>
+                            <div class="plus">
+                                <span style="font-size: 40px;">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <div class="sustainable">
+                            <h3>Sustainable development goals and health innovation</h3>
+                            <p class="sustain">Set up in-house meeting with all HOD's and board executives with a focus on new product...</p>
+                        </div>
+                        <div class="team">
+                            <div class="circles">
+                                <div class="circ1" id="circle"></div>
+                                <div class="circ2" id="circle"></div>
+                                <div class="circ3" id="circle"></div>
+                                <div class="circ4" id="circle">+5</div>
+                            </div>
+                            <div class="media-team">
+                                <div class="line1"></div>
+                                <div class="team-text">
+                                    <h6>Media Team Meeting</h6>
+                                    <p class="time">13:30 - 14:50</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="monthly-pinned">
+                        <div class="mon-p">
+                            <h3>Monthly Pinned</h3>
+                            <p>View all</p>
+                        </div>
+                        <div class="pin1"></div>
+                        <div class="pin2"></div>
+                        <div class="pin3"></div>
+                    </div>
+                </div>
+                <div class="pro-pro">
+                    <div class="productivity">
+                        <div class="weekly">
+                            <div class="headt">
+                                <h3>Weekly Report</h3>
+                            <p>Track your performance</p>
+                            </div>
+                            <div class="viewr">
+                                <button class="view-btn">View Report</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects">hi</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../assets/js/dashboard.js"></script>
+</body>
+</html>
