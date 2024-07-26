@@ -123,13 +123,13 @@ a{
     margin-bottom: 30px;
 }
 .goody{
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 7px;
 }
 .store{
     position: absolute;
-    bottom: 460px;
-    right: 620px;
+    bottom: 450px;
+    right: 627px;
     color: orangered;
     font-size: 25px;
     font-style:oblique;
