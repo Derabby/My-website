@@ -120,18 +120,22 @@ a{
     font-size: 15px;
     font-style: oblique;
     display: flex;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 .goody{
     margin-top: 30px;
     margin-left: 7px;
+    /* font-size: 20px; */
 }
 .store{
-    position: absolute;
+    margin-top: 45px;
+    /* margin-right:30px ; */
+
+    /* position: absolute;
     bottom: 450px;
-    right: 627px;
+    right: 690px; */
     color: orangered;
-    font-size: 25px;
+    font-size: 20px;
     font-style:oblique;
 }
 .pics{
